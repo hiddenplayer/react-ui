@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    padding: 2rem 2rem;
+}
+
+.header p {
+    text-align: justify;
+}
+
+.header-form {
+    padding: 3rem 0;
+}
+
+.header-form input {
+    outline: none;
+    border: none;
+    width: 80%;
+    background-color: navy;
+    line-height: 24px;
+    padding: .5rem;
+}
+
+.header-form button {
+    outline: none;
+    border: none;
+    width: 20%;
+    padding: .5rem;
+    line-height: 24px;
+    background-color: coral;
+    color: #000;
+}
+
+.header-avatar {
+    width: 50%;
+    margin-left: 3rem;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-avatar {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
