@@ -3,7 +3,8 @@ import { Header } from './components/header/Header';
 import { Navbar } from './components/navbar/Navbar';
 import { Technics } from './components/technics/Technics';
 import { GPT } from './components/gpt/GPT';
-import { Blog } from './components/blog/blog';
+import { Blog } from './components/blog/Blog';
+import { Footer } from './components/footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Technics/>
       <GPT/>
       <Blog/>
+      <Footer/>
     </div>
   );
 }

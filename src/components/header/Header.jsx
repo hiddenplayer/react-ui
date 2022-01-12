@@ -9,7 +9,7 @@ export const Header = () => {
     return (
         <div className='header'>
             <div className='header-container'>
-                <h1>{title}</h1>
+                <h1 className='gradient-txt'>{title}</h1>
                 <p>{feature}</p>
                 <div className='header-form'>
                     <form>
