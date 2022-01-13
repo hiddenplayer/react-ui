@@ -4,8 +4,8 @@ import avatar from '../../assets/piano.png'
 import './Header.css'
 
 export const Header = () => {
-    const title = "Let's Build Somthing amingzing with GPT-3 OpenAI"
-    const feature = 'Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.'
+    const title = "Let's Build Somthing amazing with React"
+    const feature = 'React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable and easier to debug.'
     return (
         <div className='header'>
             <div className='header-container'>
