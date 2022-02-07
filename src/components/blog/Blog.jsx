@@ -5,8 +5,8 @@ import "./Blog.css";
 import yena from "../../assets/yena.jpg";
 import sinestrea from "../../assets/sinestrea.jpg";
 import liliana from "../../assets/liliana.jpg";
-import veres from "../../assets/veres.jpg";
-import arum from "../../assets/arum.jpg";
+import nata from "../../assets/natalya.jpg";
+import gildur from "../../assets/gildur.jpg";
 
 export const Blog = () => {
   return (
@@ -25,8 +25,8 @@ export const Blog = () => {
         <div className="blog_container_b">
           <Article
             time="Jan 20, 2022"
-            tit="How to become top one champ Veres"
-            im={veres}
+            tit="How to become top one champ Sinestrea"
+            im={sinestrea}
           />
           <Article
             time="Jan 20, 2022"
@@ -35,13 +35,13 @@ export const Blog = () => {
           />
           <Article
             time="Jan 20, 2022"
-            tit="How to become top one champ Sinestrea"
-            im={sinestrea}
+            tit="How to become top one champ Natalya"
+            im={nata}
           />
           <Article
             time="Jan 20, 2022"
-            tit="How to become top one champ Arum"
-            im={arum}
+            tit="How to become top one champ Gildur"
+            im={gildur}
           />
         </div>
       </div>
